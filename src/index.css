@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-gray-800 dark:text-gray-100 font-sans;
+}
+
+* {
+  @apply font-sans;
+}
+
+h1, h2, h3 {
+  @apply font-bold; /* Poids 700 par défaut pour les titres */
+}
+
+p, a, span {
+  @apply font-medium; /* Poids 500 pour les textes réguliers */
+}
