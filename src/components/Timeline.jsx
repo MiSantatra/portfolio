@@ -1,9 +1,9 @@
 const Timeline = () => {
   const education = [
-    { institution: 'MCCI Business School', degree: 'Licence Professionnelle CSI', period: '2022 - 2024' },
+    { institution: 'MCCI Business School', degree: 'Licence Professionnelle', suite:"Concepteur de systèmes d'information ", period: '2022 - 2024' },
     { institution: 'Institut Supérieur Polytechnique de Madagascar', degree: ' Master en Electronique, Système Informatique ', suite: 'et Intelligence Artificielle', period: '2022 - 2024' },
     { institution: 'Institut Supérieur Polytechnique de Madagascar', degree: 'Licence en Electronique, Système Informatique ', suite: 'et Intelligence Artificielle', period: '2018 - 2022' },
-    { institution: 'Lycée Andrianampoinimerina', degree: 'Série Scientifique', period: '2017 - 2018' },
+    { institution: 'Lycée Andrianampoinimerina', degree: 'Baccalauréat Scientifique', period: '2017 - 2018' },
   ];
   const experience = [
     { company: 'Bolzano Group ( A Vivea Business Park Maurice)', role: 'Stagiaire Développeur', tech: 'Symfony API plateform, T-SQL', period: '2018 – 2024' },
@@ -40,7 +40,7 @@ const Timeline = () => {
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   <div>
-                    <p className="font-medium">{edu.institution}</p>
+                    <p className="font-bold">{edu.institution}</p>
                     <p className="text-sm text-gray-500 dark:text-gray-400">{edu.degree}</p>
                     <p className="text-sm text-gray-500 dark:text-gray-400">{edu.suite}</p>
                   </div>
